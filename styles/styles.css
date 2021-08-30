@@ -1,0 +1,73 @@
+
+
+body {
+  text-align: center;
+  background-image: url("D:/Daten/Programmieren/Web Development/Starter/images/bg1.jpg");
+  background-size: cover;
+}
+
+
+h1 {
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  font-size: 5rem;
+  margin-top: 5%;
+}
+
+
+.quote {
+  color: #545454;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 2% 15%;
+}
+
+
+
+.search-element {
+  margin: 8% 25% 6% 25%;
+}
+
+.search-icon {
+  width: 24px;
+}
+
+
+.search-btn {
+
+}
+
+
+.fav-bar {
+  margin-left: 25%;
+  margin-right: 25%;
+
+
+}
+
+.tile {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background-color: rgba(0.4, 0.4, 0.4, 0.4);
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.fav {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 20px;
+
+  filter: blur(1px) drop-shadow(0 0 0.75rem white);
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .row {display: none;}
+}
